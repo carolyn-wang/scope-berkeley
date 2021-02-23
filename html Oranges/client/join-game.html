@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Benevolent Oranges</title>
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link rel="stylesheet" href="styles.css">
+        <script defer src="http://localhost:8080/socket.io/socket.io.js"></script>
+    </head>
+<body>
+
+    <div class=joinContainer>
+        <div class="instruction">
+            Please enter your name 
+        </div>
+        
+        <form method="post" onsubmit = "showPlayers(); return false" action="#" >
+            <div class="submitBar">
+                <input type="text" name="nameIn" class="nameIn" required >
+            </div>
+        Join code
+            <div class="submitBar">
+                <input type="text" name="codeIn" class="codeIn" placeholder="4-digit code" maxlength="4" required >
+            </div>
+            <div class="button" id="enterButton">
+                <input type="submit" value="Enter Game">
+            </div>
+            
+        </form>
+
+
+        
+
+
+        <script>
+            /*
+            nameIn.addEventListener('click' , function(){
+                document.getElementsByClassName("playersContainer").style.visibility = "visible";
+                playerInstruction = "Player Name";
+            }
+            )
+            */
+        </script>
+
+    </div>
+
+    <div class="playersContainer">
+        <h1> Players </h1>
+        <div>
+            players here
+            <!-- <?php echo $_POST["nameIn"]; ?><br>
+            <?php echo $_POST["codeIn"]; ?> -->
+        </div>
+        <form action="game.html" method="POST">
+            <input type ="submit" id="StartGameButton" value="Start Game">
+        </form>
+    </form>
+    </div>
+    
+    <script src= "../server/app.js" charset="utf-8"></script>
+</body>
+</html>

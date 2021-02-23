@@ -12,7 +12,7 @@ body {
   overflow-x: hidden;
 
   /* COLORS */
-  --accent_color : rgb(46, 34, 119);
+  --accent_color : rgba(29, 23, 119, 0.904);
 }
 
 
@@ -33,7 +33,6 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #D40;
 }
 
 a:focus {
@@ -93,6 +92,7 @@ blockquote {
 
 .tm-navbar {
   position: fixed;
+  letter-spacing: 1.4px;
   width: 100%;
   z-index: 1000;
   background-color: transparent;

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="abaa72bf-80ea-4577-8e01-f11e1c5fa090" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/lab3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/lab3/randomizedtest/AListNoResizing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/lab3/randomizedtest/BuggyAList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/lab3/randomizedtest/TestBuggyAList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/lab3/timingtest/AList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/lab3/timingtest/SLList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/lab3/timingtest/StopwatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/lab3/timingtest/TimeAList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/lab3/timingtest/TimeSLList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/proj1/deque/LinkedListDequeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/proj1/gh2/GuitarHeroLite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/proj1/gh2/GuitarPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/proj1/gh2/GuitarString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/proj1/gh2/TTFAF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/proj1/gh2/TestGuitarString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/proj1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/proj1ec/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/proj1ec/student/Deque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/proj1ec/student/StudentArrayDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/proj1ec/tester/ArrayDequeSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/proj1ec/tester/AssertEqualsStringDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp21-s1526/proj1ec/tester/StudentArrayDequeLauncher.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/sp21-s1526/library-sp21/javalib" />
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nwyt1rq0jiyyybvsTMp9EiLWoH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abaa72bf-80ea-4577-8e01-f11e1c5fa090" name="Default Changelist" comment="" />
+      <created>1612315658994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612315658994</updated>
+    </task>
+    <servers />
+  </component>
+</project>
