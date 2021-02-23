@@ -12,11 +12,13 @@
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/style.css" />
 
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet">
+
 
 </head>
 
@@ -37,7 +39,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link tm-nav-link" href="#infinite">Home</a>
+              <a class="nav-link tm-nav-link" href="#about-us">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link tm-nav-link" href="#upcoming">Upcoming</a>
@@ -50,6 +52,11 @@
             </li>
             <li class="nav-item">
               <a class="nav-link tm-nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-nav-link sign-up-btn" href="#sign-up">
+              Sign Up</a>
+            </a>
             </li>
           </ul>
         </div>
@@ -80,7 +87,7 @@
     </div>
   </section>
 
-  <section id="upcoming" class="tm-section-pad-top">
+  <section id="about-us" class="tm-section-pad-top">
     <div class="container">
       <div class="row tm-content-box">
         <!-- first row -->
@@ -98,29 +105,36 @@
           </div>
         </div>
       </div>
-      
-      <div class="container upcoming-events">
-        <h2 class="tm-text-primary mb-4 tm-section-title"> Events</h2>
-        <div class="row tm-content-box">
+    </div>
+    </div>
+    </div>
+
+    <section id="upcoming" class="tm-section-pad-top">
+      <h2 class="tm-text-primary mb-4 tm-section-title"> Events</h2>
+      <div class="row tm-content-box">
+        <div class="container upcoming-events">
           <div class="col-lg-5">
             <div class="tm-intro-text-container upcoming">
               <h2 class="tm-text-primary mb-4">Sunday, March 7th<br>@ Berkeley</h2>
-              <p class="mb-4 tm-intro-text">
+              <p class="mb-4 tm-event-text">
                 Our March SCOPE event will take place on March 7th from 3:00 p.m. to 4:30 p.m.
-                To attend, please fill out the sign up form and we will send you a Zoom link a few days prior to the
+                To attend, please fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSewCy0GK3N0lyLq-_n5GCErYzLyRolzR6PGupHOBq7btplFeA/viewform"
+                target="_blank">sign up form</a> and we will send you a Zoom link a few days prior to the
                 event!
+              <div class="tm-continue">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSewCy0GK3N0lyLq-_n5GCErYzLyRolzR6PGupHOBq7btplFeA/viewform"
+                target="_blank" class="tm-intro-text tm-btn-primary">Sign Up Here</a>
+              </div>
               <div class="tm-continue">
                 <a href="#gallery" class="tm-intro-text tm-btn-primary">Learn More</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-1">
-            <!-- spacer-->
-          </div>
+
           <div class="col-lg-5">
             <div class="tm-intro-text-container">
               <h2 class="tm-text-primary mb-4">Sunday, February 6th<br>@ Berkeley</h2>
-              <p class="mb-4 tm-intro-text">
+              <p class="mb-4 tm-event-text">
                 Our first ever SCOPE event will be held on February 6th from 3:00 p.m.
                 to 4:30 p.m! To attend, please fill out the sign up form and we will
                 send you a Zoom link a few days prior to the event.
@@ -157,7 +171,7 @@
         <div class="col-12">
           <div class="mx-auto tm-gallery-container">
             <div class="grid tm-gallery">
-              <a href="img/gallery-img-01.jpg">
+              <a href="https://people.eecs.berkeley.edu/~minilek/" target="_blank">
                 <figure class="effect-honey tm-gallery-item">
                   <img src="img/profs/jnelson.jpg" class="img-fluid">
                   <figcaption>
@@ -167,27 +181,47 @@
               </a>
               <a href="img/gallery-img-02.jpg">
                 <figure class="effect-honey tm-gallery-item">
-                  <img src="img/profs/rjoyce.jpg"  class="img-fluid">
+                  <img src="img/profs/rjoyce.jpg" class="img-fluid">
                   <figcaption>
                     <h2><i> Rosemary Joyce <span>Anthropology</span></i></h2>
                   </figcaption>
                 </figure>
               </a>
-              <a href="img/gallery-img-03.jpg">
+              <a href="https://nst.berkeley.edu/users/sona-kang" target="_blank">
                 <figure class="effect-honey tm-gallery-item">
-                  <img src="img/gallery-tn-03.jpg" alt="Image 3" class="img-fluid">
+                  <img src="img/profs/skang.jpg" class="img-fluid">
                   <figcaption>
                     <h2><i>Sona Kang<span><br>Nutritional Sciences & Toxicology</span></i></h2>
                   </figcaption>
                 </figure>
               </a>
-              
+
+              <a href="" target="_blank">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/profs/mnolan.jpg" class="img-fluid">
+                  <figcaption>
+                    <h2><i>Maura Nolan<span><br>English</span></i></h2>
+                  </figcaption>
+                </figure>
+              </a>
+
+              <a href="https://nuc.berkeley.edu/e-s-kuh-chair-of-engineering-peter-hosemann/" target="_blank">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/profs/phosemann.jpg" class="img-fluid">
+                  <figcaption>
+                    <h2><i>Peter Hosemann<span><br>Nuclear Engineering</span></i></h2>
+                  </figcaption>
+                </figure>
+              </a>
+
+
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
 
   <!-- Previous Speakers -->
   <section id="testimonials" class="tm-section-pad-top tm-parallax-2">
@@ -233,6 +267,20 @@
     <div class="tm-bg-overlay"></div>
   </section>
 
+
+    <!-- Sign Up Form -->
+    <section id="sign-up" class="tm-section-pad-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 tm-content-box">
+            <h2 class="tm-text-primary mb-4 tm-section-title">Sign Up</h2>
+            <p class="mx-auto tm-section-desc text-center">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
   <!-- Contact -->
   <section id="contact" class="tm-section-pad-top tm-parallax-2">

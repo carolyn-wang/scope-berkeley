@@ -12,8 +12,12 @@ body {
   overflow-x:hidden;
 
   /* COLORS */
-  --accent_color : rgba(29, 23, 119, 0.904);
-  --button_color : #37A;
+  --accent_color : rgba(7, 39, 145, 0.904);
+  --btn_color : #37A;
+
+  /* BUTTONS */
+  --btn_radius : 6px;
+  
   
 }
 
@@ -43,7 +47,6 @@ a:focus {
 
 .btn {
   padding: 8px 32px;
-
 }
 
 .btn:hover {
@@ -64,6 +67,8 @@ blockquote {
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
+
+  
 }
  
 .tm-content-box {
@@ -81,8 +86,11 @@ blockquote {
 
 .tm-btn-primary {
   color: white;
-  background-color: var(--button_color);
+  background-color: var(--btn_color);
+  border-radius: var(--btn_radius);
   padding: 14px 30px;
+  position: relative;
+
 }
 
 .tm-btn-primary:hover,
@@ -97,6 +105,7 @@ blockquote {
   position: fixed;
   letter-spacing: 1.4px;
   width: 100%;
+  padding: 10px;
   z-index: 1000;
   background-color: transparent;
   transition: all 0.3s ease;
@@ -174,8 +183,6 @@ blockquote {
 
 #infinite {
 	background-color: rgb(255, 255, 255);
-  background-image: url(../img/infinite-loop-01.jpg);
-  /* background-image: url(../img/stars.mp4); */
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
@@ -233,10 +240,10 @@ blockquote {
   font-size: 7rem;
   font-family: "Raleway", sans-serif;
   font-weight: bolder;
-  letter-spacing: 14px;
+  letter-spacing: 20px;
   color: white;
   margin: 0;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px var(--accent_color), 0 0 5px darkblue;
   
 }
 .tm-hero-title-subtext{
@@ -280,18 +287,25 @@ blockquote {
 /* Upcoming */
 
 #upcoming {
-  padding-left: 8rem;
-  padding-right: 8rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  margin-top: 6rem;
+
+  padding-top: 1rem;
   padding-bottom: 6rem;
   background-color: white;
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
-}
+  border:rgba(7, 39, 145, 0.377) solid 4px;
+  border-radius: 12px;
+} 
 
 .upcoming-events{
-  padding-right: 3rem;
-  padding-left: 5rem;
+  padding-right: 2rem;
+  padding-left: 9rem;
+  display: flex;
+  position: relative;
 }
 
 .tm-section-title {
@@ -306,6 +320,13 @@ blockquote {
 
 .tm-intro-text {
   font-size: 1.2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.tm-event-text {
+  font-size: 1.2rem;
+
 }
 
 .tm-icon {
@@ -316,6 +337,7 @@ blockquote {
 .tm-continue {
 	padding: 20px 0 30px 0;
 }
+
 
 /* Testimonials */
 #testimonials {
@@ -370,23 +392,33 @@ blockquote {
   height: 200px;
 }
 
-/* Work */
+/* Sign Up */
+#sign-up {
+  color: white;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+/* Professors (Gallery) */
 
 .tm-section-desc {
-  max-width: 650px;
-  width: 100%;
+  /* max-height: 650px;
+  width: auto; */
   font-size: 1.4rem;
 }
 
 .tm-gallery-container {
   padding-top: 70px;
-  padding-bottom: 120px;
+  padding-bottom: 70px;
 }
 
 .tm-gallery-item {
   object-fit: cover;
-  max-width: 100%;
-  height: auto;
+  height: 275px;
+  /* width: auto; */
 }
 
 .slick-dots {
