@@ -9,7 +9,7 @@ body {
   color: #707070;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow-x:hidden;
 
   /* COLORS */
   --accent_color : rgba(29, 23, 119, 0.904);
