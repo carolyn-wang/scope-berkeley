@@ -14,6 +14,7 @@ body {
   /* COLORS */
   --accent_color : rgba(7, 39, 145, 0.904);
   --btn_color : #37A;
+  --gallery_color: var(--accent_color);
 
   /* BUTTONS */
   --btn_radius : 6px;
@@ -93,10 +94,21 @@ blockquote {
 
 }
 
-.tm-btn-primary:hover,
-.tm-btn-primary:focus {
+.tm-btn-primary:hover{
   color: white;
   background-color: var(--accent_color);
+}
+
+.tm-btn-outline{
+  background-color: transparent;
+  border: var(--btn_color) solid 4px;
+  color: var(--btn_color);
+}
+
+.tm-btn-outline:hover{
+  background-color: transparent;
+  border: var(--accent_color) solid 3px;
+  color: var(--accent_color);
 }
 
 /* Navbar */
@@ -529,7 +541,7 @@ blockquote {
 /*---------------*/
 
 figure.effect-honey {
-  background: #4a3753;
+  background: var(--gallery_color);
   max-width: 220px;
 }
 
