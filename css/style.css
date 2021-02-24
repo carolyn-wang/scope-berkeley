@@ -6,7 +6,7 @@ body {
 	/* font-family: "Open Sans", sans-serif; */
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 1.2em;
-  color: #707070;
+  color: var(--body_color);
   margin: 0;
   padding: 0;
   overflow-x:hidden;
@@ -15,6 +15,7 @@ body {
   --accent_color : rgba(7, 39, 145, 0.904);
   --btn_color : #37A;
   --gallery_color: var(--accent_color);
+  --body_color: #474646;
 
   /* BUTTONS */
   --btn_radius : 6px;
@@ -68,12 +69,12 @@ blockquote {
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
-
+  width: 100vw;
   
 }
  
 .tm-content-box {
-  align-items: right;
+  align-items: center;
 } 
 
 .tm-text-primary {
@@ -100,13 +101,13 @@ blockquote {
 }
 
 .tm-btn-outline{
-  background-color: transparent;
+  background-color: white;
   border: var(--btn_color) solid 4px;
   color: var(--btn_color);
 }
 
 .tm-btn-outline:hover{
-  background-color: transparent;
+  background-color: white;
   border: var(--accent_color) solid 3px;
   color: var(--accent_color);
 }
@@ -249,7 +250,7 @@ blockquote {
 
 }
 .tm-hero-title {
-  font-size: 7rem;
+  font-size: 15vh;
   font-family: "Raleway", sans-serif;
   font-weight: bolder;
   letter-spacing: 20px;
@@ -259,7 +260,7 @@ blockquote {
   
 }
 .tm-hero-title-subtext{
-  font-size: 3rem;
+  font-size: 7vh;
   font-weight: lighter;
   font-family: 'Assistant', sans-serif;  
   letter-spacing: 4px;
@@ -269,7 +270,7 @@ blockquote {
 }
 
 .tm-hero-subtitle {
-  font-size: 2.3rem;
+  font-size: 5vh;
   text-shadow: 2px 2px 2px rgb(27, 27, 27);
   font-weight: lighter;
   text-transform: uppercase;
@@ -299,25 +300,28 @@ blockquote {
 /* Upcoming */
 
 #upcoming {
-  margin-left: 8rem;
-  margin-right: 8rem;
-  margin-top: 6rem;
 
-  padding-top: 1rem;
-  padding-bottom: 6rem;
-  background-color: white;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: rgba(255, 255, 255, 0.404);
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
-  border:rgba(7, 39, 145, 0.377) solid 4px;
-  border-radius: 12px;
+
 } 
 
 .upcoming-events{
+  background-color: white;
   padding-right: 2rem;
-  padding-left: 9rem;
+  padding-left: 2rem;
   display: flex;
   position: relative;
+}
+
+.upcoming-container{
+  padding: 5vw;
+  padding-top: 2vw;
+  border-radius: 10pt;
 }
 
 .tm-section-title {
@@ -338,7 +342,6 @@ blockquote {
 
 .tm-event-text {
   font-size: 1.2rem;
-
 }
 
 .tm-icon {
@@ -349,6 +352,7 @@ blockquote {
 .tm-continue {
 	padding: 20px 0 30px 0;
 }
+
 
 
 /* Testimonials */
@@ -711,7 +715,6 @@ p {
 
 @media (min-width: 768px) {
   .tm-intro-text-container {
-    /* padding-right: 2rem; */
     position: center;
 
   }
