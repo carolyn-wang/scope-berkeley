@@ -64,6 +64,7 @@ blockquote {
   font-size: 1em;
   line-height: 1.8em;
   text-align: center;
+  color: white;
 }
 
 .tm-section-pad-top {
@@ -379,6 +380,7 @@ blockquote {
 .tm-testimonials-content {
   position: relative;
   z-index: 100;
+ 
 }
 
 .tm-bg-overlay {
