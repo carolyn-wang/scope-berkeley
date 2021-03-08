@@ -25,6 +25,7 @@ body {
   --blockquote_font_size : 1.2rem;
   --navbar_font_size : 1.7rem;
   --section_title_font_size : 2.6rem;
+  --tm_big_font_size : 1rem;
   
 }
 
@@ -94,7 +95,7 @@ blockquote {
 }
 
 .tm-font-big {
-  font-size: 1.25rem;
+  font-size: var(--tm_big_font_size);
 }
 
 .tm-btn-primary {
