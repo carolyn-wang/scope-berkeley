@@ -16,6 +16,7 @@ body {
   --btn_color : #37A;
   --gallery_color: var(--accent_color);
   --body_color: #474646;
+  --navbar_font_color: #369;
 
   /* BUTTONS */
   --btn_radius : 6px;
@@ -26,8 +27,10 @@ body {
   --navbar_font_size : 1.7rem;
   --section_title_font_size : 2.6rem;
   --tm_big_font_size : 1.05rem;
+  --tm_primary_font_size: 1.6rem;
   --intro_text_font_size : 1rem;
   --event_text_font_size : 1rem;
+  --section_desc_font_size : 1.2rem;
 }
 
 
@@ -92,6 +95,7 @@ blockquote {
 
 .tm-text-primary {
   color: #37A;
+  font-size: var(--tm_primary_font_size);
   padding-top: 1.5rem;
 }
 
@@ -142,11 +146,22 @@ blockquote {
   border-bottom: 1px solid #e9ecef;
 }
 
+/* navbar always appears. doesn't change when scrolling */
+.tm-navbar.set { 
+  background-color: white;
+  border-bottom: 1px solid #e9ecef;
+  color: var(--navbar_font_color);;
+}
+
 .navbar-brand {
   color: white;
   font-family: "Raleway", sans-serif;
   font-size: var(--navbar_font_size);
   font-weight: bold;
+}
+
+.navbar-brand.set{
+  color: var(--accent_color);
 }
 
 .navbar-brand:hover,
@@ -155,7 +170,7 @@ blockquote {
 }
 
 .tm-navbar.scroll .navbar-brand {
-  color: #369;
+  color: var(--navbar_font_color);;
 }
 
 .nav-item {
@@ -167,7 +182,7 @@ blockquote {
 }
 
 .tm-navbar.scroll .tm-nav-link {
-  color: #369;
+  color: var(--navbar_font_color);;
 }
 
 .tm-navbar.scroll .tm-nav-link:hover,
@@ -309,7 +324,6 @@ blockquote {
   }
 }
 
-
 /* Upcoming */
 
 #upcoming {
@@ -444,7 +458,7 @@ blockquote {
 .tm-section-desc {
   /* max-height: 650px;
   width: auto; */
-  font-size: 1.4rem;
+  font-size: var(--section_desc_font_size);
 }
 
 .tm-gallery-container {
@@ -660,7 +674,7 @@ figure.effect-honey:hover h2 i {
 .tm-btn-submit {
 	font-size: 0.9em;
 	color: #fff;
-	background-color: #369;
+	background-color: var(--navbar_font_color);;
 	width: 50%;
 	margin-bottom: 60px;
 }
@@ -800,4 +814,19 @@ p {
   .tm-gallery-item {
     margin: 0;
   }
+}
+
+.tm-event-container{
+  padding-top: 6rem;
+  height: auto;
+
+}
+
+.tm-event-video{
+  position: relative; 
+  width: auto; 
+  height: auto; 
+  padding: 10rem;
+  padding-bottom: 2rem;
+  padding-top: 5rem;
 }
