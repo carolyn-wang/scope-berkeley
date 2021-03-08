@@ -5,7 +5,7 @@
 body {
 	/* font-family: "Open Sans", sans-serif; */
   font-family: 'Noto Sans JP', sans-serif;
-  font-size: 1.2em;
+  font-size: var(--body_font_size);
   color: var(--body_color);
   margin: 0;
   padding: 0;
@@ -20,6 +20,11 @@ body {
   /* BUTTONS */
   --btn_radius : 6px;
   
+  /* FONT SIZE */
+  --body_font_size : 1rem;
+  --blockquote_font_size : 1.2rem;
+  --navbar_font_size : 1.7rem;
+  --section_title_font_size : 2.6rem;
   
 }
 
@@ -61,7 +66,7 @@ a:focus {
 }
 
 blockquote {
-  font-size: 1em;
+  font-size: var(--blockquote_font_size);
   line-height: 1.8em;
   text-align: center;
   color: white;
@@ -138,7 +143,7 @@ blockquote {
 .navbar-brand {
   color: white;
   font-family: "Raleway", sans-serif;
-  font-size: 1.7rem;
+  font-size: var(--navbar_font_size);
   font-weight: bold;
 }
 
@@ -318,18 +323,17 @@ blockquote {
 
 .upcoming-events{
   background-color: white;
-  padding-right: 2rem;
-  padding-left: 2rem;
-  display: flex;
   position: relative;
 }
 
 .upcoming-container{
   display: grid;
-  grid-template-columns: 47% 47%;
-  grid-column-gap: 5%;
-  padding: 5vw;
-  padding-top: 2vw;
+  grid-template-columns: 46% 46%;
+  grid-column-gap: 8%;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  padding-top : 2vh;
+  padding-bottom : 10vh;
   border-radius: 10pt;
 } 
 .upcoming-title{
@@ -337,7 +341,7 @@ blockquote {
   grid-column-end: 3;
 }
 .tm-section-title {
-  font-size: 2.6rem;
+  font-size: var(--section_title_font_size);
   text-transform: uppercase;
   letter-spacing: 4px;
   font-family: 'Assistant', sans-serif;  
@@ -640,26 +644,6 @@ figure.effect-honey:hover h2 i {
   padding-top: 100px;
 }
 
-.contact-item {
-  margin-left: 20px;
-  margin-bottom: 50px;
-}
-
-.item-link {
-  display: flex;
-  align-items: center;
-}
-
-.item-link i,
-.item-link span {
-  color: white;
-  transition: all 0.3s ease;
-}
-
-.item-link:hover i,
-.item-link:hover span {
-  color: #3496d8;
-}
 
 .tm-input {
 	margin: 0 0 20px 0;
