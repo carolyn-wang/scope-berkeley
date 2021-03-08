@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 
 
 
@@ -25,8 +25,9 @@ body {
   --blockquote_font_size : 1.2rem;
   --navbar_font_size : 1.7rem;
   --section_title_font_size : 2.6rem;
-  --tm_big_font_size : 1rem;
-  
+  --tm_big_font_size : 1.05rem;
+  --intro_text_font_size : 1rem;
+  --event_text_font_size : 1rem;
 }
 
 
@@ -352,13 +353,13 @@ blockquote {
 }
 
 .tm-intro-text {
-  font-size: 1.2rem;
+  font-size: var(--intro_text_font_size);
   padding-left: 3rem;
   padding-right: 3rem;
 }
 
 .tm-event-text {
-  font-size: 1.2rem;
+  font-size: var(--event_text_font_size);
 }
 
 .tm-icon {
@@ -408,7 +409,7 @@ blockquote {
 
 
 .tm-testimonials-carousel {
-  max-width: 1050px;
+  max-width: 95%;
   margin: 0 auto;
 }
 
