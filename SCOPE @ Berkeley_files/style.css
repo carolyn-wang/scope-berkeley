@@ -326,16 +326,12 @@ blockquote {
 
 .upcoming-container{
   display: grid;
-  grid-template-columns: 47% 47%;
-  grid-column-gap: 5%;
+  grid-template-columns: 50% 50%;
   padding: 5vw;
   padding-top: 2vw;
   border-radius: 10pt;
 } 
-.upcoming-title{
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
+
 .tm-section-title {
   font-size: 2.6rem;
   text-transform: uppercase;
