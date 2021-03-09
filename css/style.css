@@ -22,14 +22,14 @@ body {
   --btn_radius : 6px;
   
   /* FONT SIZE */
-  --body_font_size : 1rem;
+  --body_font_size : 1.2rem;
   --blockquote_font_size : 1.2rem;
   --navbar_font_size : 1.7rem;
   --section_title_font_size : 2.6rem;
   --tm_big_font_size : 1.05rem;
   --tm_primary_font_size: 1.6rem;
-  --intro_text_font_size : 1rem;
-  --event_text_font_size : 1rem;
+  --intro_text_font_size : 1.2rem;
+  --event_text_font_size : 1.2rem;
   --section_desc_font_size : 1.2rem;
 }
 
@@ -61,9 +61,9 @@ a:focus {
   padding: 8px 20px;
 }
 
-.btn:hover {
+/* .btn:hover {
   background-color: #ced4da;
-}
+} */
 
 .sign-up-btn{
   border: solid white 3px;
@@ -119,13 +119,15 @@ blockquote {
 
 .tm-btn-outline{
   background-color: white;
-  border: var(--btn_color) solid 4px;
+  border: var(--btn_color) solid 2px;
   color: var(--btn_color);
+  box-shadow: inset 0px 0px 0px 2px var(--btn_color);
 }
 
 .tm-btn-outline:hover{
   background-color: white;
-  border: var(--accent_color) solid 3px;
+  border: var(--accent_color) solid 2px;
+  box-shadow: inset 0px 0px 0px 2px var(--accent_color);
   color: var(--accent_color);
 }
 
@@ -658,6 +660,15 @@ figure.effect-honey:hover h2 i {
   position: relative;
   padding-bottom: 50px;
   padding-top: 100px;
+  
+}
+
+.tm-container-contact{
+  display: flex;
+  justify-items: center;
+  margin-right: 10vw;
+  margin-left: 10vw;
+
 }
 
 
@@ -674,8 +685,9 @@ figure.effect-honey:hover h2 i {
 .tm-btn-submit {
 	font-size: 0.9em;
 	color: #fff;
-	background-color: var(--navbar_font_color);;
-	width: 50%;
+	background-color: var(--navbar_font_color);
+  padding-right: 5vw;
+  padding-left: 5vw;
 	margin-bottom: 60px;
 }
 
@@ -847,7 +859,7 @@ p {
 
 
   .student-rep-container{
-    padding-right: 40vw;
-    padding-left: 40vw;
     margin-top: 4rem;
+    display: flex;
+  justify-content: center;
   }
