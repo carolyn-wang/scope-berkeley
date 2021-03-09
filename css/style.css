@@ -844,3 +844,10 @@ p {
     margin: 10vw;
   }
   }
+
+
+  .student-rep-container{
+    padding-right: 40vw;
+    padding-left: 40vw;
+    margin-top: 4rem;
+  }
