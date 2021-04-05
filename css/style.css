@@ -363,7 +363,7 @@ blockquote {
 .tm-section-title {
   font-size: var(--section_title_font_size);
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 6px;
   font-family: 'Assistant', sans-serif;  
 
   text-align: center;
