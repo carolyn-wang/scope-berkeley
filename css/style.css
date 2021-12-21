@@ -294,9 +294,7 @@ blockquote {
   font-weight: lighter;
   font-family: 'Assistant', sans-serif;  
   letter-spacing: 4px;
-  text-shadow: 1px 1px 2px yellow, 0 0 25px blue, 0 0 5px darkgoldenrod;
-
-
+  text-shadow: 1px 1px 2px yellow, 0 0 25px blue, 0 0 5px darkgoldenrod
 }
 
 .tm-hero-subtitle {
@@ -324,6 +322,10 @@ blockquote {
   .tm-intro-next {
     bottom: 20px;
   }
+}
+
+.rocket{
+  position:flex;
 }
 
 /* Upcoming */
@@ -361,7 +363,7 @@ blockquote {
 .tm-section-title {
   font-size: var(--section_title_font_size);
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 6px;
   font-family: 'Assistant', sans-serif;  
 
   text-align: center;
